@@ -31,3 +31,15 @@ Additionally there are the following files:
 ![Console Demo](./demo/console-demo.png)
 
 ## GUI Demo
+
+**Entering text in the input**
+
+![By input](./demo/gui-demo-by-input.png)
+
+**Selecting File**
+
+![Selecting file](./demo/gui-demo-select-file.png)
+
+**From selected file**
+
+![By file](./demo/gui-demo-by-file.png)
