@@ -25,6 +25,7 @@ Additionally there are the following files:
 - [Test](./test.txt): Text file to test the generation of hashes from a file
 - [Console](./console.py): Console version of the Hash Calculator app
 - [GUI](./gui.py): GUI version of the Hash Calculator app
+- [Demo](./demo): Demo screenshots
 
 ## Console Demo
 
