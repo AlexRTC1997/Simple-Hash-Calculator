@@ -126,7 +126,7 @@ filename = ''
 def open_file_chooser():
     try:
         global filename
-        filename = askopenfilename()
+        filename = askopenfilename(filetypes=[("test files", "*.txt")])
 
         if filename:
             plain_text = read_file(filename).encode('UTF-8')
