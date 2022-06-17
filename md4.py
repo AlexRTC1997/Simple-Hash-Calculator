@@ -88,13 +88,3 @@ class MD4:
 # Return MD4 Hash
 def md4(message):
     return MD4(message).hexdigest()
-
-
-# === SIMPLE VERSION ===
-"""
-import hashlib
-
-
-def md4(text):
-    return hashlib.new("md4", text).hexdigest()
-"""

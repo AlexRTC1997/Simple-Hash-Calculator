@@ -152,13 +152,3 @@ def _rotate_right(num: int, shift: int, size: int = 32):
 # Return the SHA-256 hash result
 def sha256(message):
     return sha256_algorithm(message).hex()
-
-
-# === SIMPLE VERSION ===
-"""
-import hashlib
-
-
-def sha256(text):
-    return hashlib.sha256(text).hexdigest()
-"""

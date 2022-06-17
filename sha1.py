@@ -88,16 +88,3 @@ def sha1(x):
         H = [format(x, '08x') for x in H]
 
         return "".join(H)
-
-
-# === SIMPLE VERSION ===
-"""
-import hashlib
-
-
-def sha1(text):
-    h = hashlib.sha1()
-    h.update(text)
-
-    return h.hexdigest()
-"""
