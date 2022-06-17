@@ -28,4 +28,6 @@ Additionally there are the following files:
 
 ## Console Demo
 
+![Console Demo](./demo/console-demo.png)
+
 ## GUI Demo
