@@ -16,15 +16,15 @@ while option != 5:
     elif option == 5:
         break
 
-    plain_text = input(" > Plain Text: ").encode('UTF-8')
+    plain_text = input(" > Plain Text: ")
 
     if option == 1:
-        print(f" > MD4 Hash: {md4(plain_text)}\n")
+        print(f" > MD4 Hash: {md4(plain_text.encode('UTF-8'))}\n")
     elif option == 2:
-        print(f" > MD5 Hash: {md5(plain_text)}\n")
+        print(f" > MD5 Hash: {md5(plain_text.encode('UTF-8'))}\n")
     elif option == 3:
         print(f" > SHA-1 Hash: {sha1(plain_text)}\n")
     elif option == 4:
-        print(f" > SHA-256 Hash: {sha256(plain_text)}\n")
+        print(f" > SHA-256 Hash: {sha256(plain_text.encode('UTF-8'))}\n")
 
 print("\nGood bye")
